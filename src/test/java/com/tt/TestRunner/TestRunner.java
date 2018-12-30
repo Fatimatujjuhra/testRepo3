@@ -5,8 +5,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(
 		features = {"Features"},
-		glue = {"com.tt.StepDef"},
-		tags = {"@sampleFeature"}
+		glue = {"com.tt.StepDef"}
 		)
 
 public class TestRunner extends AbstractTestNGCucumberTests{
